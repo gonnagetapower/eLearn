@@ -1,0 +1,188 @@
+@import './_normalize.css';
+@import './_fonts.css';
+@import './components/header.css';
+@import './components/hero.css';
+@import './components/company.css';
+@import './components/about-us.css';
+@import './components/our-features.css';
+@import './components/review.css';
+
+body {
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+
+.container {
+    padding-left: 122px;
+    padding-right: 122px;
+}
+
+.btn-reset {
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
+
+.btn {
+    display: block;
+    width: 160px;
+    height: 60px;
+    letter-spacing: 0.44px;
+    border-radius: 80px;
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0px 20px 24px 0px rgba(0, 0, 0, 0.03);
+}
+
+.btn--black {
+    background: rgba(0, 0, 0, 1);
+    color: rgba(255, 255, 255, 1);
+}
+
+.btn--red {
+    width: 220px;
+    height: 80px;
+    background: #EA5972;
+    font-size: 24px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 1);
+}
+
+.btn--watch {
+    position: relative;
+    background: transparent;
+    color: #252641;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.notification__btn {
+    width: 180px;
+    height: 50px;
+    margin-top: 35px;
+}
+
+.selection__btn {
+    margin: 0 auto;
+    position: relative;
+    z-index: 3;
+    width: 283px;
+    height: 80px;
+    background: rgba(0, 0, 0, 0.0);
+    border: 1px solid #fff;
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.selection__btn--red {
+    border: none;
+    background: #EA5972;
+}
+
+.browser-btn {
+    position: absolute;
+    bottom: 50px;
+    left: 53px;
+    width: 153.203px;
+    height: 51.068px;
+    border-radius: 51.068px;
+    background: #58A5A0;
+    box-shadow: 0px 8.511263847351074px 20.427032470703125px 0px rgba(52, 101, 225, 0.30);
+    color: #FFF;
+    font-family: Nunito Sans;
+    font-size: 22.129px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.browser-btn--call {
+    left: 238px;
+    background: #E0677C;
+    box-shadow: 0px 8.511263847351074px 20.427032470703125px 0px rgba(202, 47, 93, 0.30);
+}
+
+.pulse-button {
+    border: none;
+    box-shadow: 0 0 0 0 rgba(232, 76, 61, 0.7);
+    background-color: #E0677C;
+    background-image: url(YOUR-URL-IMAGE.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    -webkit-animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+    -moz-animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+    -ms-animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+    animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+  }
+  .pulse-button:hover 
+  {
+    -webkit-animation: none;-moz-animation: none;-ms-animation: none;animation: none;
+  }
+  @-webkit-keyframes pulse {to {box-shadow: 0 0 0 15px rgba(232, 76, 61, 0);}}
+  @-moz-keyframes pulse {to {box-shadow: 0 0 0 15px rgba(232, 76, 61, 0);}}
+  @-ms-keyframes pulse {to {box-shadow: 0 0 0 15px rgba(232, 76, 61, 0);}}
+  @keyframes pulse {to {box-shadow: 0 0 0 15px rgba(232, 76, 61, 0);}}
+
+  .tools__btn {
+    margin: 0 auto;
+    width: 280px;
+    height: 80px;
+    border-radius: 80px;
+    border: 1px solid #EA5E94;
+    color: #EA5E94;
+    font-family: Nunito Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%; /* 43.2px */
+    letter-spacing: 0.48px;
+  }
+
+.integration__btn {
+    width: 280px;
+    height: 80px;
+    border-radius: 80px;
+    border: 1px solid #D77299;
+    color: #EC72A1;
+    font-family: Nunito Sans;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%; /* 39.6px */
+}
+
+.testimonial__btn {
+    position: relative;
+    width: 403px;
+    height: 80px;
+    border-radius: 80px;
+    border: 1px solid #EF8DB3;
+    color: #EC72A1;
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 35.2px */
+    letter-spacing: 0.44px;
+    padding-right: 70px;
+}
+
+.testimonial__btn::after {
+    content: url('./../assets/svg/btn-arrow.svg');
+    position: absolute;
+    top: -1px;
+    right: -1px;
+    scale: 0.99;
+}

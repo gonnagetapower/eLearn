@@ -1,0 +1,237 @@
+.our-features {
+    width: 1580px;
+    margin: 0 auto;
+    margin-bottom: 160px;
+}
+
+.our-features__title {
+    text-align: center;
+    color: #000;
+    font-family: Poppins;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%; 
+}
+
+.our-features__descr {
+    color: #696984;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%; /* 43.2px */
+    margin-bottom: 170px;
+}
+
+.feature {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    gap: 248px;
+    margin-bottom: 152px;
+}
+
+.feature::before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    top: -75px;
+    left: 70px;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    background-color: #6CBEB9;
+}
+
+.feature::after {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    bottom: 5px;
+    left: 614px;
+    width: 264px;
+    height: 264px;
+    border-radius: 50%;
+    background-color: #29B9E6;
+    z-index: -1;
+}
+
+.img-container {
+    position: relative;
+    width: 783px;
+    height: 483px;
+}
+
+.feature__img--browser {
+    width: 783px;
+    height: 483px;
+    margin-left: 8px;
+    z-index: -1;
+}
+
+.call-people {
+    position: absolute;
+    border-radius: 17.023px;
+}
+
+.calling-teacher {
+    top: 92px;
+    left: 90px;
+}
+
+.calling-student1 {
+    top: 94px;
+    right: 152px;
+}
+
+.calling-student2 {
+    bottom: 42px;
+    right: 152px;
+}
+
+.calling-student3 {
+    top: 54px;
+    right: -103px;
+}
+
+.calling-student4 {
+    bottom: -40px;
+    right: -121px;
+}
+
+.feature__info {
+    padding-top: 8px;
+}
+
+.feature__title {
+    color: #000;
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%; /* 64px */
+    margin-bottom: 53px;
+}
+
+.feature__item {
+    position: relative;
+    color: #696984;
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%; /* 39.6px */
+    letter-spacing: 0.44px;
+    margin-bottom: 40px;
+    margin-left: 98px;
+}
+
+.feature__item::before {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -100px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 50%;
+    padding: 15px;
+}
+
+.feature__item:nth-child(1)::before {
+    content: url('./../../assets/svg/4squares.svg');
+    display: inline-block;
+    width: 26.591px;
+    height: 26px;
+}
+
+.feature__item:nth-child(2)::before {
+    content: url('./../../assets/svg/2square.svg');
+    display: inline-block;
+    width: 28px;
+    height: 26px;
+}
+
+.feature__item:nth-child(3)::before {
+    content: url('./../../assets/svg/3users.svg');
+    display: inline-block;
+    width: 30px;
+    height: 26px;
+}
+
+/* .tools {
+    padding-left: 78px;
+    padding-right: 78px;
+} */
+
+.tool {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 236px;
+    margin-bottom: 155px;
+}
+
+.tool--teaching {
+    padding-left: 78px;
+    padding-right: 78px;
+}
+
+.tool--quiz {
+    gap: 197px;
+    margin-bottom: 70px;
+    padding-left: 30px;
+    padding-right: 350px;
+}
+
+.tool--management {
+    gap: 135px;
+    margin-bottom: 122px;
+}
+
+.tool--private-class {
+    padding-left: 28px;
+    gap: 0px;
+}
+
+.tool-info--down {
+    padding-top: 65px;
+}
+
+.tool-info--quiz {
+    padding-bottom: 174px;
+}
+
+.tool-info--management {
+    padding-left: 25px;
+    padding-top: 28px;
+}
+
+.tool--private-class {
+    padding-right: 18px;
+    padding-bottom: 73px;
+    margin-bottom: 11px;
+}
+
+
+.tool__title {
+    width: 483px;
+    color: #000;
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%; /* 64px */
+    margin-bottom: 0px;
+}
+
+.tool__descr {
+    width: 568px;
+    color: #696984;
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%; /* 39.6px */
+    letter-spacing: 0.44px;
+}

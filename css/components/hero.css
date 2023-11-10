@@ -1,0 +1,145 @@
+.hero {
+    padding-top: calc(178px + 72px);
+    background-color: #FAE7EA;
+    min-height: 875px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: -500px;
+    margin-right: -500px;
+    border-radius: 0px 0px 50% 50%;
+    background-image: url('./../../assets/svg/student.png');
+    background-position: 68% 100%;
+    background-repeat: no-repeat;
+    margin-bottom: 95px;
+}
+
+.hero__container {
+    margin-left: 500px;
+    margin-right: 500px;
+}
+
+
+.hero__title {
+    width: 865px;
+    color: #1E2A39;
+    font-size: 82px;
+    font-weight: 600;
+    line-height: 98px; /* 119.512% */
+    margin-bottom: 31px;
+}
+
+.hero__title--circled {
+    position: relative;
+    margin-left: 18px;
+}
+
+.hero__title--circled::after {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: -15px;
+    right: -0px;
+    bottom: 0px;
+    scale: 1.15;
+    background-image: url('./../../assets/svg/circled.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.hero__descr {
+    width: 523px;
+    color: #464646;
+    font-family: Nunito Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 38.4px */
+    margin-bottom: 51px;
+}
+
+.btn-flex {
+    display: flex;
+    align-items: center;
+    gap: 33px;
+}
+
+.play-icon {
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+}
+
+.notification {
+    position: absolute;
+    padding: 23px;
+    display: inline-block;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(10px);
+    padding-left: 110px;
+}
+
+.notification--calendar {
+    top: 410px;
+    right: 710px;
+}
+
+.notification__img {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    bottom: 0;
+    left: 26px;
+    transform: translateY(-50%);
+}
+
+.notification__title {
+    margin: 0;
+    color: #595959;
+    font-family: Nunito Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 0.48px;
+}
+
+.notification__descr {
+    margin: 0;
+    color: #545567;
+    font-family: Nunito Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: 0.45px;
+}
+
+.notification--message {
+        top: 604px;
+        right: 100px;
+}
+
+.notification__img--message-icon {
+    background-color: rgba(248, 140, 61, 1);
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.notification--user {
+    left: 882px;
+    bottom: 26px;
+}
+
+.notification__img--user {
+    transform: translateY(-100%);
+}
+
+.notification__descr--margin {
+    margin-bottom: 19px;
+}
+
+.stats {
+    position: absolute;
+    top: 322px;
+    right: 169px;
+}

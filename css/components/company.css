@@ -1,0 +1,77 @@
+.company__container {
+    text-align: center;
+    margin-bottom: 144px;
+}
+
+.company__title {
+    color: #424246;
+    font-family: 'Poppins';
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 56px */
+    letter-spacing: 1.05px;
+    margin-bottom: 48px;
+}
+
+.company-list {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    gap: 61px;
+}
+
+.company-list__icon {
+    width: 168px;
+    height: 55px;
+    object-fit: contain;
+}
+
+.company__link {
+    display: block;
+	mask-repeat: no-repeat;
+    -webkit-mask-repeat: no-repeat;
+    mask-size: contain;
+    -webkit-mask-size: contain;
+    mask-position: center;
+    -webkit-mask-position: center;
+    width: 169px;
+    height: 55px;
+    background-color: rgba(171, 171, 171, 1);
+}
+
+.company__link--google {
+    mask-image: url('./../../assets/svg/google.svg');
+    -webkit-mask-image: url('./../../assets/svg/google.svg');
+}
+
+.company__link--netflix {
+    mask-image: url('./../../assets/svg/netflix.svg');
+    -webkit-mask-image: url('./../../assets/svg/netflix.svg');
+}
+
+.company__link--airbnb {
+    mask-image: url('./../../assets/svg/airbnb.svg');
+    -webkit-mask-image: url('./../../assets/svg/airbnb.svg');
+}
+
+.company__link--amazon {
+    mask-image: url('./../../assets/svg/amazon.svg');
+    -webkit-mask-image: url('./../../assets/svg/amazon.svg');
+}
+
+.company__link--facebook {
+    mask-image: url('./../../assets/svg/facebook.svg');
+    -webkit-mask-image: url('./../../assets/svg/facebook.svg');
+}
+
+.company__link--grab {
+    mask-image: url('./../../assets/svg/grab.svg');
+    -webkit-mask-image: url('./../../assets/svg/grab.svg');
+}
+
+.company__link:hover {
+    transition: transform 0.3s;
+    transform: scale(1.2);
+    background-color: #FAE7EA;
+}
